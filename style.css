@@ -1,8 +1,21 @@
 * {
-    padding: 0;
     margin: 0;
-    border:0;
-}
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    /* font-size: 62.5%; */
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #444;
+    line-height: 1.9;
+    background-color: #f3f3f3;
+  }
 /* HEADER */
 .header {
     padding: 0 2rem;
@@ -41,8 +54,8 @@
     padding: 6rem 0;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    gap: 88px;
+    width: 100% !important;
+    /* gap: 88px; */
 }
 .hero-heading {
     display: flex;
